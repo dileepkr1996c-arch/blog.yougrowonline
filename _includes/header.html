@@ -1,0 +1,26 @@
+<!-- Header -->
+<header class="header" id="header">
+  <div class="container">
+    <a href="/" class="logo" aria-label="You Grow Online Blog Home">
+      <img src="/assets/images/logo.png" alt="You Grow Online logo" width="40" height="40">
+      <div class="logo-wrapper">
+        <div class="logo-text">You <span>Grow</span> Online</div>
+        <span class="logo-tagline">Blog</span>
+      </div>
+    </a>
+    <nav class="nav-menu" aria-label="Main navigation">
+      <a href="https://yougrowonline.in" class="nav-link">Home</a>
+      <a href="/" class="nav-link{% if page.url == '/' %} active{% endif %}">Blog</a>
+      <a href="https://yougrowonline.in/about.html" class="nav-link">About</a>
+      <a href="https://yougrowonline.in/contact.html" class="nav-link">Contact</a>
+      <button class="theme-toggle" aria-label="Toggle dark/light mode" title="Toggle theme">
+        <i class="fa-solid fa-sun"></i>
+        <i class="fa-solid fa-moon"></i>
+      </button>
+      <a href="https://yougrowonline.in/contact.html" class="nav-link nav-cta">Get a Quote</a>
+    </nav>
+    <div class="hamburger" aria-label="Toggle menu" role="button" tabindex="0">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</header>

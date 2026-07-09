@@ -1,0 +1,32 @@
+# Site settings
+title: "You Grow Online — Blog"
+description: "Read the latest insights on web development, ecommerce, digital marketing, SEO, Google Ads, Facebook Ads, and AI technology from You Grow Online."
+baseurl: ""
+url: "https://blog.yougrowonline.in"
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+
+# Pagination
+pagination:
+  enabled: true
+  per_page: 9
+  permalink: '/page/:num/'
+  title: ':title - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate-v2
+
+# Exclude
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
