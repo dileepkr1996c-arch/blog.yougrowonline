@@ -3,16 +3,18 @@
     var toolsContainer = document.getElementById('sidebarTools');
     var postsContainer = document.getElementById('sidebarPosts');
     if (!toolsContainer && !postsContainer) return;
+    var MAIN_SITE = 'https://yougrowonline.in';
 
     if (toolsContainer) {
-      fetch('/tools/tools-master.json')
+      fetch(MAIN_SITE + '/tools/tools-master.json')
         .then(function(r) { return r.json(); })
         .then(function(data) {
           var allTools = [];
           Object.keys(data.tools || {}).forEach(function(catKey) {
             (data.tools[catKey] || []).forEach(function(t) {
               if (t.link && t.link !== '#') {
-                allTools.push({ title: t.title, link: t.link });
+                var fullLink = t.link.startsWith('http') ? t.link : MAIN_SITE + t.link;
+                allTools.push({ title: t.title, link: fullLink });
               }
             });
           });
@@ -25,7 +27,7 @@
           toolsContainer.innerHTML = html;
         })
         .catch(function() {
-          toolsContainer.innerHTML = '<li><a href="/tools/">Browse all tools</a></li>';
+          toolsContainer.innerHTML = '<li><a href="' + MAIN_SITE + '/tools/">Browse all tools &rarr;</a></li>';
         });
     }
 
