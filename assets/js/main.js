@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /* ----- Day/Night Theme Toggle ----- */
   const themeToggle = document.querySelector('.theme-toggle');
-  const storedTheme = localStorage.getItem('ygo_theme') || 'dark';
+  const storedTheme = localStorage.getItem('ygo_theme') || 'light';
 
   function applyTheme(theme) {
     document.documentElement.setAttribute('data-theme', theme);
