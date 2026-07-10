@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<article class="section blog-single-page">
+  <div class="container">
+    <div class="blog-single-layout">
+      <div class="blog-single-main">
+        <a href="/" class="blog-post-back"><i class="fa-solid fa-arrow-left"></i> Back to Blog</a>
+        <div class="blog-post-image">
+          <img src="{{ page.image }}" alt="{{ page.title | escape }}" loading="lazy">
+        </div>
+        <h1>{{ page.title }}</h1>
+        <div class="blog-post-meta">
+          <span><i class="fa-regular fa-calendar"></i> {{ page.date | date: "%B %d, %Y" }}</span>
+          {% if page.categories %}
+          {% assign category = page.categories | first %}
+          <span><i class="fa-regular fa-folder"></i> {{ category | replace: '-', ' ' | capitalize }}</span>
+          {% endif %}
+        </div>
+        <div class="blog-post-body">
+          {{ content }}
+        </div>
+      </div>
+      <aside class="sidebar sidebar-blog">
+        <div class="sidebar-section">
+          <h4>Popular Tools</h4>
+          <ul id="sidebarTools"><li>Loading...</li></ul>
+        </div>
+        <div class="sidebar-section">
+          <h4>Latest Posts</h4>
+          <ul>
+            {% for post in site.posts limit:9 %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </div>
+</article>
