@@ -4,24 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Content Manager — You Grow Online</title>
-  
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" data-netlify-identity-site-id="fe812d22-6ce6-48f6-b427-980e82ce1191"></script>
 </head>
 <body>
-
+  <!-- Decap CMS Script Only -->
   <script src="https://unpkg.com/decap-cms@^3/dist/decap-cms.js"></script>
-
-  <script>
-    if (window.netlifyIdentity) {
-      window.netlifyIdentity.on("init", user => {
-        if (!user) {
-          window.netlifyIdentity.on("login", () => {
-            document.location.href = "/admin/";
-          });
-        }
-      });
-    }
-  </script>
-
 </body>
 </html>
