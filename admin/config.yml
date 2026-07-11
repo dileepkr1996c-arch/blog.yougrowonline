@@ -6,7 +6,7 @@ backend:
   repo: dileepkr1996c-arch/blog.yougrowonline
   branch: main
   base_url: https://api.netlify.com
-  auth_endpoint: /auth
+  auth_endpoint: /auth?site_id=fe812d22-6ce6-48f6-b427-980e82ce1191
   
 media_folder: "assets/images"
 public_folder: "/assets/images"
