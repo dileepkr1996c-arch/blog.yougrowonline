@@ -2,7 +2,7 @@ backend:
   name: github
   repo: dileepkr1996c-arch/blog.yougrowonline
   branch: main
-  base_url: https://gatekeeper.decapcms.org 
+  base_url: https://decap-cms-oauth-provider.vercel.app # Naya proxy URL
   
 media_folder: "assets/images"
 public_folder: "/assets/images"
