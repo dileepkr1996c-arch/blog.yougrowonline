@@ -1,8 +1,8 @@
 backend:
   name: github
   repo: dileepkr1996c-arch/blog.yougrowonline
-  branch: main
-  base_url: https://github-cms-oauth.netlify.app # Yeh active proxy hai
+  branch: main # Aapki default branch
+  base_url: https://api.netlify.com # Netlify ka main URL jo token supply karega
   
 media_folder: "assets/images"
 public_folder: "/assets/images"
