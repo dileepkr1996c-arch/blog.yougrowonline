@@ -2,8 +2,8 @@ backend:
   name: github
   repo: dileepkr1996c-arch/blog.yougrowonline
   branch: main
-  site_domain: blog.yougrowonline.in
-
+  base_url: https://gatekeeper.decapcms.org 
+  
 media_folder: "assets/images"
 public_folder: "/assets/images"
 
