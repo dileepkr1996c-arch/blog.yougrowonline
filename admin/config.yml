@@ -4,7 +4,6 @@
 backend:
   name: git-gateway
   branch: main
-  site_domain: idyllic-brigadeiros-154182.netlify.app
   
 media_folder: "assets/images"
 public_folder: "/assets/images"
