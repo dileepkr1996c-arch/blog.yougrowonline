@@ -2,8 +2,11 @@
 # https://decapcms.org/docs/configuration-options/
 
 backend:
-  name: git-gateway
+  name: github
+  repo: dileepkr1996c-arch/blog.yougrowonline
   branch: main
+  base_url: https://identity.netlify.com
+  auth_endpoint: /v1/oauth
 
 media_folder: "assets/images"
 public_folder: "/assets/images"
