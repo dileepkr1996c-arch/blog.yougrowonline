@@ -5,9 +5,9 @@ backend:
   name: github
   repo: dileepkr1996c-arch/blog.yougrowonline
   branch: main
-  base_url: https://identity.netlify.com
-  auth_endpoint: /v1/oauth
-
+  base_url: https://api.netlify.com
+  auth_endpoint: /auth
+  
 media_folder: "assets/images"
 public_folder: "/assets/images"
 
