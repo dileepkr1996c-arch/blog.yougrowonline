@@ -1,6 +1,8 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.2"
+gem "jekyll", "~> 4.4.1"
 
-# Agar aap koi specific theme use kar rahe hain toh use yahan add kar sakte hain, 
-# nahi toh itna kafi hai.
+group :jekyll_plugins do
+  gem "jekyll-seo-tag"
+  gem "jekyll-feed"
+end
