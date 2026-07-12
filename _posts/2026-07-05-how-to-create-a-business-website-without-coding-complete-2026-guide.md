@@ -1,12 +1,13 @@
 ---
-layout: post
-title: "How to Create a Business Website Without Coding (Complete 2026 Guide)"
-description: "Learn how to create a professional business website without coding. Step-by-step guide covering domain, hosting, AI website builders, SEO, and online growth in 2026."
+title: How to Create a Business Website Without Coding (Complete 2026 Guide)
 date: 2026-07-05
-image: /assets/images/how-to-create-a-business-website-without-coding.webp
+layout: post
+image: /assets/images/file_0000000099347209b67f16173cf0ffcc.png
 categories: web-development
+description: Learn how to create a professional business website without coding.
+  Step-by-step guide covering domain, hosting, AI website builders, SEO, and
+  online growth in 2026.
 ---
-
 ## How to Create a Business Website Without Coding (2026 Guide)
 
 Building a professional business website no longer requires programming knowledge. Thanks to AI tools and modern website builders, anyone can create a fast, secure, and SEO-friendly website in just a few hours.
@@ -32,6 +33,7 @@ Every business website should include: Home, About, Services, Portfolio, Blog, C
 ## Step 5: Optimize for SEO
 
 Search Engine Optimization helps Google understand your website. Basic SEO checklist:
+
 - Proper page titles
 - Meta descriptions
 - Fast loading speed
