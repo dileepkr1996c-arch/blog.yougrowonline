@@ -1,7 +1,7 @@
 ---
 title: "Shopify vs. You Grow Online: Which E-commerce Platform Will Deliver
   Better Value in 2026?"
-date: 2026-07-07
+date: 2026-07-13
 layout: post
 image: /assets/images/shopify-vs-you-grow-online.webp
 categories: web-design
