@@ -1,6 +1,6 @@
 ---
 title: How AI is Transforming Digital Marketing
-date: 2026-06-10
+date: 2026-07-13
 layout: post
 image: /assets/images/how-ai-is-transforming-digital-marketing.webp
 categories: marketing
