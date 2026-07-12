@@ -1,12 +1,12 @@
 ---
-layout: post
-title: "How AI is Transforming Digital Marketing"
-description: "Explore how artificial intelligence is revolutionizing digital marketing strategies and helping businesses achieve unprecedented results."
+title: How AI is Transforming Digital Marketing
 date: 2026-06-10
-image: https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80
+layout: post
+image: /assets/images/How to Integrate AI Chatbots Into Your Website.webp
 categories: marketing
+description: Explore how artificial intelligence is revolutionizing digital
+  marketing strategies and helping businesses achieve unprecedented results.
 ---
-
 Artificial intelligence is fundamentally changing the way businesses approach digital marketing. From automating repetitive tasks to delivering deep insights that were previously impossible to obtain, AI is becoming an indispensable tool for marketers worldwide.
 
 ## Predictive Analytics
