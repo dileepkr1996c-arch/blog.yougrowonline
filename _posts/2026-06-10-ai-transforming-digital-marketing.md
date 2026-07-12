@@ -2,7 +2,7 @@
 title: How AI is Transforming Digital Marketing
 date: 2026-06-10
 layout: post
-image: /assets/images/How to Integrate AI Chatbots Into Your Website.webp
+image: /assets/images/how-ai-is-transforming-digital-marketing.webp
 categories: marketing
 description: Explore how artificial intelligence is revolutionizing digital
   marketing strategies and helping businesses achieve unprecedented results.
