@@ -10,24 +10,18 @@
       "type": "collection",
       "path": "_posts",
       "fields": [
-        { "name": "title", "label": "Title", "type": "string" },
-        { "name": "date", "label": "Date", "type": "date" },
+        { "name": "title", "label": "Title (Heading)", "type": "string" },
+        { "name": "permalink", "label": "Custom URL / Slug (e.g., /my-awesome-post/)", "type": "string" },
+        { "name": "date", "label": "Publish Date", "type": "date" },
         { "name": "layout", "label": "Layout", "type": "hidden", "default": "post" },
+        { "name": "image", "label": "Feature Image (Main Blog Image)", "type": "image" },
+        { "name": "categories", "label": "Categories (Comma separated)", "type": "string" },
+        { "name": "tags", "label": "Tags (Comma separated)", "type": "string" },
+        { "name": "description", "label": "Meta Description (For SEO)", "type": "text" },
         {
           "name": "body",
-          "label": "Body",
-          "type": "rich-text",
-          "options": {
-            "links": true,
-            "images": true,
-            "headings": [1, 2, 3, 4, 5, 6],
-            "bold": true,
-            "italic": true,
-            "code": true,
-            "quotes": true,
-            "lists": true,
-            "tables": true
-          }
+          "label": "Body Content",
+          "type": "rich-text"
         }
       ]
     }
