@@ -6,6 +6,7 @@ backend:
   repo: dileepkr1996c-arch/blog.yougrowonline
   branch: main
   auth_type: implicit
+  auth_endpoint: https://github.com/login/oauth/authorize
   
 media_folder: "assets/images"
 public_folder: "/assets/images"
