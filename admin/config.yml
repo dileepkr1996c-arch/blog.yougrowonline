@@ -35,7 +35,3 @@ collections:
         widget: "select"
         options: ["web-development", "ecommerce", "marketing", "seo", "ai", "design"]
         required: false
-
-url: "https://blog.yougrowonline.in"
-plugins:
-  - jekyll-sitemap
