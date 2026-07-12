@@ -13,7 +13,22 @@
         { "name": "title", "label": "Title", "type": "string" },
         { "name": "date", "label": "Date", "type": "date" },
         { "name": "layout", "label": "Layout", "type": "hidden", "default": "post" },
-        { "name": "body", "label": "Body", "type": "rich-text" }
+        {
+          "name": "body",
+          "label": "Body",
+          "type": "rich-text",
+          "options": {
+            "links": true,
+            "images": true,
+            "headings": [1, 2, 3, 4, 5, 6],
+            "bold": true,
+            "italic": true,
+            "code": true,
+            "quotes": true,
+            "lists": true,
+            "tables": true
+          }
+        }
       ]
     }
   ]
