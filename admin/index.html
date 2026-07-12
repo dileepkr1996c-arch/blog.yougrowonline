@@ -6,7 +6,13 @@
   <title>Content Manager — You Grow Online</title>
 </head>
 <body>
-  <!-- Decap CMS Script Only -->
+  <!-- Decap CMS Script -->
   <script src="https://unpkg.com/decap-cms@^3/dist/decap-cms.js"></script>
+  
+  <script>
+    // Yeh script Decap CMS ko batayegi ki bina kisi Netlify gateway ke direct GitHub app use karein
+    window.CMS_CONFIG = window.CMS_CONFIG || {};
+    window.CMS_CONFIG.app_id = "Ov23liy1DMOZdZ3zsYho"; 
+  </script>
 </body>
 </html>
