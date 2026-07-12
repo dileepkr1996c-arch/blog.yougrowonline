@@ -1,12 +1,13 @@
 ---
-layout: post
-title: "Start an Online Business in India for Less than ₹10,000 (2026 Guide)"
-description: "Learn how to start a profitable online business in India for under ₹10,000. Learn business ideas, tools, costs, and a step-by-step roadmap for beginners in 2026."
+title: Start an Online Business in India for Less than ₹10,000 (2026 Guide)
 date: 2026-07-06
+layout: post
 image: /assets/images/start-an-online-business-in-india-under-10000-2026-guide.webp
 categories: business
+description: Learn how to start a profitable online business in India for under
+  ₹10,000. Learn business ideas, tools, costs, and a step-by-step roadmap for
+  beginners in 2026.
 ---
-
 ## How to Start an Online Business in India with Less Than ₹10,000 (2026 Guide)
 
 Starting an online business no longer requires millions of rupees. In 2026, anyone with a smartphone, laptop, and internet connection can start a successful business from home. Whether you're a student, freelancer, homemaker, or working professional, you can start your own online business with a budget of less than ₹10,000.
@@ -35,12 +36,17 @@ Here are some great online business ideas:
 If you know WordPress, PHP, or Shopify, you can create a website for your business.
 
 **Investment:**
+
 - Domain: ₹800
 - Hosting: ₹2,500
 - Portfolio Website: ₹0–₹2,000
 - Total: Approximately ₹3,500
 
 **Potential Earnings:** ₹10,000–₹1,00,000+ per month
+
+
+
+![](/assets/images/start-an-online-business-under-10000-2026-guide.webp)
 
 ### 2. Digital Marketing Agency
 
@@ -65,18 +71,23 @@ Offer graphic design, video editing, web development, content writing, or SEO se
 ## Step-by-Step Roadmap
 
 ### Step 1: Choose a skill
+
 Don't try to learn everything. Choose one: Website development, SEO, Digital marketing, Blogging, or Graphic design.
 
 ### Step 2: Build your website
+
 Your website builds trust and helps generate leads. Include: Home, About, Services, Portfolio, Pricing, Blog, and Contact pages.
 
 ### Step 3: Publish Helpful Content
+
 Write articles that solve customer problems. Content brings free traffic from search engines.
 
 ### Step 4: Use Social Media
+
 Post consistently on Instagram, Facebook, LinkedIn, and YouTube Shorts.
 
 ### Step 5: Get your first client
+
 Use WhatsApp, LinkedIn, Facebook Groups, Referrals, and Cold Email.
 
 ## Beginners commonly make these mistakes:
