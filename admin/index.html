@@ -4,15 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Content Manager — You Grow Online</title>
+  <script>
+    // CMS load hone se pehle config inject karna zaroori hai
+    window.CMS_CONFIG = {
+      backend: {
+        name: 'github',
+        repo: 'dileepkr1996c-arch/blog.yougrowonline',
+        branch: 'main',
+        auth_type: 'implicit',
+        auth_endpoint: 'https://github.com/login/oauth/authorize'
+      },
+      app_id: 'Ov23liy1DMOZdZ3zsYho'
+    };
+  </script>
 </head>
 <body>
-  <!-- Decap CMS Script -->
+  <!-- Decap CMS Script (Config inject hone ke baad) -->
   <script src="https://unpkg.com/decap-cms@^3/dist/decap-cms.js"></script>
-  
-  <script>
-    // Yeh script Decap CMS ko batayegi ki bina kisi Netlify gateway ke direct GitHub app use karein
-    window.CMS_CONFIG = window.CMS_CONFIG || {};
-    window.CMS_CONFIG.app_id = "Ov23liy1DMOZdZ3zsYho"; 
-  </script>
 </body>
 </html>
