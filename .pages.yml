@@ -86,14 +86,27 @@
           "name": "robots",
           "label": "Robots Meta Tag",
           "type": "select",
-          "options": ["index, follow", "noindex, follow", "index, nofollow"],
+          "options": {
+            "values": [
+              "index, follow",
+              "noindex, follow",
+              "index, nofollow"
+            ]
+          },
           "default": "index, follow"
         },
         {
           "name": "schema_type",
           "label": "Schema Type",
           "type": "select",
-          "options": ["Article", "BlogPosting", "TechArticle", "NewsArticle"],
+          "options": {
+            "values": [
+              "BlogPosting",
+              "Article",
+              "TechArticle",
+              "NewsArticle"
+            ]
+          },
           "default": "BlogPosting"
         },
         {
