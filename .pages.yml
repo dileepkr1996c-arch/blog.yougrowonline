@@ -1,29 +1,41 @@
-{
-  "media": {
-    "input": "assets/images",
-    "output": "/assets/images"
-  },
-  "content": [
-    {
-      "name": "Blogs",
-      "label": "Blogs",
-      "type": "collection",
-      "path": "_posts",
-      "fields": [
-        { "name": "title", "label": "Title (Heading)", "type": "string" },
-        { "name": "permalink", "label": "Custom URL / Slug (e.g., /my-awesome-post/)", "type": "string" },
-        { "name": "date", "label": "Publish Date", "type": "date" },
-        { "name": "layout", "label": "Layout", "type": "hidden", "default": "post" },
-        { "name": "image", "label": "Feature Image (Main Blog Image)", "type": "image" },
-        { "name": "categories", "label": "Categories (Comma separated)", "type": "string" },
-        { "name": "tags", "label": "Tags (Comma separated)", "type": "string" },
-        { "name": "description", "label": "Meta Description (For SEO)", "type": "text" },
-        {
-          "name": "body",
-          "label": "Body Content",
-          "type": "rich-text"
-        }
-      ]
-    }
-  ]
-}
+
+media:
+  input: assets/images
+  output: /assets/images
+
+content:
+  - name: Blogs
+    label: Blogs
+    type: collection
+    path: _posts
+    filename: "{year}-{month}-{day}-{primary}.md"
+    fields:
+      - {name: title, label: Title, type: string, required: true}
+      - {name: permalink, label: URL Slug, type: string}
+      - {name: date, label: Publish Date, type: date}
+      - {name: publish_time, label: Best Publish Time, type: select,
+         options: ["08:00 IST","09:00 IST","19:00 IST","20:00 IST","Custom"]}
+      - {name: layout, type: hidden, default: post}
+      - {name: author, label: Author, type: string, default: "You Grow Online"}
+      - {name: image, label: Featured Image, type: image}
+      - {name: image_alt, label: Image Alt Text, type: string}
+      - {name: excerpt, label: Excerpt, type: text}
+      - {name: description, label: Meta Description, type: text}
+      - {name: focus_keyword, label: Focus Keyword, type: string}
+      - {name: secondary_keywords, label: Secondary Keywords, type: string}
+      - {name: meta_title, label: SEO Title, type: string}
+      - {name: canonical_url, label: Canonical URL, type: string}
+      - {name: categories, label: Categories, type: string}
+      - {name: tags, label: Tags, type: string}
+      - {name: target_country, label: Target Country, type: string, default: "Global"}
+      - {name: target_language, label: Language, type: string, default: "English"}
+      - {name: search_intent, label: Search Intent, type: select,
+         options: ["Informational","Commercial","Transactional","Navigational"]}
+      - {name: content_type, label: Content Type, type: select,
+         options: ["How To","Guide","Review","Comparison","Listicle","News","Tutorial"]}
+      - {name: featured, label: Featured Post, type: boolean, default: false}
+      - {name: faq_schema, label: FAQ Schema, type: boolean, default: true}
+      - {name: article_schema, label: Article Schema, type: boolean, default: true}
+      - {name: breadcrumb_schema, label: Breadcrumb Schema, type: boolean, default: true}
+      - {name: toc, label: Table of Contents, type: boolean, default: true}
+      - {name: body, label: Article, type: rich-text}
