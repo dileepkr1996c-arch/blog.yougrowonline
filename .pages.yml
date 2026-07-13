@@ -33,13 +33,18 @@
         },
         {
           "name": "author",
-          "label": "Author",
+          "label": "Author Name",
           "type": "string",
           "default": "You Grow Online"
         },
         {
+          "name": "author_twitter",
+          "label": "Author Twitter/Social URL (For EEAT)",
+          "type": "string"
+        },
+        {
           "name": "image",
-          "label": "Featured Image",
+          "label": "Featured Image (WebP Recommended)",
           "type": "image"
         },
         {
@@ -49,17 +54,17 @@
         },
         {
           "name": "excerpt",
-          "label": "Short Excerpt",
+          "label": "Short Excerpt (Snippet)",
           "type": "text"
         },
         {
           "name": "description",
-          "label": "Meta Description",
+          "label": "Meta Description (Max 160 chars)",
           "type": "text"
         },
         {
           "name": "meta_title",
-          "label": "SEO Meta Title",
+          "label": "SEO Meta Title (Max 60 chars)",
           "type": "string"
         },
         {
@@ -69,13 +74,27 @@
         },
         {
           "name": "secondary_keywords",
-          "label": "Secondary Keywords",
+          "label": "Secondary Keywords (Comma Separated)",
           "type": "string"
         },
         {
           "name": "canonical_url",
-          "label": "Canonical URL",
+          "label": "Canonical URL (Leave blank if self)",
           "type": "string"
+        },
+        {
+          "name": "robots",
+          "label": "Robots Meta Tag",
+          "type": "select",
+          "options": ["index, follow", "noindex, follow", "index, nofollow"],
+          "default": "index, follow"
+        },
+        {
+          "name": "schema_type",
+          "label": "Schema Type",
+          "type": "select",
+          "options": ["Article", "BlogPosting", "TechArticle", "NewsArticle"],
+          "default": "BlogPosting"
         },
         {
           "name": "target_country",
@@ -89,25 +108,10 @@
           "default": "English"
         },
         {
-          "name": "publish_time",
-          "label": "Best Publish Time",
-          "type": "string",
-          "default": "08:00 AM IST"
-        },
-        {
-          "name": "content_type",
-          "label": "Content Type",
-          "type": "string"
-        },
-        {
-          "name": "search_intent",
-          "label": "Search Intent",
-          "type": "string"
-        },
-        {
-          "name": "reading_time",
-          "label": "Reading Time",
-          "type": "string"
+          "name": "toc",
+          "label": "Show Table of Contents?",
+          "type": "boolean",
+          "default": true
         },
         {
           "name": "categories",
@@ -118,6 +122,15 @@
           "name": "tags",
           "label": "Tags",
           "type": "string"
+        },
+        {
+          "name": "faq",
+          "label": "FAQ Section (Google Rich Snippets ke liye)",
+          "type": "object",
+          "fields": [
+            { "name": "question", "label": "Question", "type": "string" },
+            { "name": "answer", "label": "Answer", "type": "text" }
+          ]
         },
         {
           "name": "body",
