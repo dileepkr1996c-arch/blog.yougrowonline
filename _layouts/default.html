@@ -5,22 +5,7 @@
 <script>
   window.googletag = window.googletag || {cmd: []};
   googletag.cmd.push(function() {
-    
-    // 1. स्क्रीन साइज के हिसाब से ऐड साइज की सुरक्षित मैपिंग
-    var YGO_Home_Header_Mapping = googletag.sizeMapping()
-      // डेस्कटॉप (1024px या उससे बड़ी स्क्रीन) पर ये सभी साइज खुलेंगे
-      .addSize([1024, 0], [[970, 250], [970, 90], [728, 90]])
-      // टैबलेट (768px से 1023px की स्क्रीन) पर केवल ये साइज दिखेंगे
-      .addSize([768, 0], [[728, 90], [468, 60]])
-      // मोबाइल (767px से छोटी स्क्रीन) पर केवल सुरक्षित मोबाइल साइज दिखेगा
-      .addSize([0, 0], [[320, 50]])
-      .build();
-
-    // 2. नए स्लॉट (नई आईडी - 1784238776807-0) के साथ मैपिंग को जोड़ना
-    googletag.defineSlot('/23002577677/YGO_Home_Header', [[728, 90], [320, 50], [468, 60], [970, 90], [970, 250]], 'div-gpt-ad-1784238776807-0')
-             .defineSizeMapping(YGO_Home_Header_Mapping)
-             .addService(googletag.pubads());
-
+    googletag.defineSlot('/23002577677/YGO_Home_Header', [[200, 200], [320, 50], [468, 60], [970, 250], [970, 90], [728, 90]], 'div-gpt-ad-1784241977881-0').addService(googletag.pubads());
     googletag.pubads().enableSingleRequest();
     googletag.enableServices();
   });
