@@ -1,7 +1,7 @@
 ---
 title: "Shopify vs. You Grow Online: Which E-commerce Platform Will Deliver
   Better Value in 2026?"
-permalink: Shopify vs. You Grow Online
+permalink: Shopify vs You Grow Online
 date: 2026-07-13
 layout: post
 author: You Grow Online
