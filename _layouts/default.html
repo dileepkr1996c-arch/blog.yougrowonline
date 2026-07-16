@@ -1,6 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" crossorigin="anonymous"></script>
+<script>
+  window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+    
+    // 1. स्क्रीन साइज के हिसाब से ऐड साइज की मैपिंग
+    var YGO_Home_Header_Mapping = googletag.sizeMapping()
+      // डेस्कटॉप (1024px या उससे बड़ी स्क्रीन)
+      .addSize([1024, 0], [[970, 250], [970, 90], [728, 90]])
+      // टैबलेट (768px से 1023px की स्क्रीन)
+      .addSize([768, 0], [[728, 90], [468, 60]])
+      // मोबाइल (767px से छोटी स्क्रीन) - केवल सुरक्षित मोबाइल साइज लोड होगा
+      .addSize([0, 0], [[320, 50]])
+      .build();
+
+    // 2. स्लॉट डिफाइन करना और उसमें मैपिंग जोड़ना
+    googletag.defineSlot('/23002577677/YGO_Home_Header', [[320, 50], [468, 60], [970, 90], [970, 250], [728, 90]], 'div-gpt-ad-1784236817468-0')
+             .defineSizeMapping(YGO_Home_Header_Mapping) // मैपिंग यहाँ अप्लाई की गई है
+             .addService(googletag.pubads());
+
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+  
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8524730224202436"
      crossorigin="anonymous"></script>
   <meta name="google-site-verification" content="jYQIYZjGvMxFXd2MXA8dYNAR_zwQ3A0KiKegWU1zy70" />
