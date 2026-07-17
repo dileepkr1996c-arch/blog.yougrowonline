@@ -1710,6 +1710,7 @@ ul { list-style: none; }
   width: 100%;
   max-width: 100%;
   overflow-wrap: break-word;
+  overflow-x: hidden;
 }
 
 .blog-post-body > * { max-width: 100%; }
@@ -3027,6 +3028,11 @@ img {
     flex-direction: column;
   }
 
+  .blog-single-main {
+    padding: 0;
+    overflow: hidden;
+  }
+
   .sidebar {
     width: 100%;
     position: static;
@@ -3035,6 +3041,12 @@ img {
   .blog-single-main h1 {
     font-size: 1.5rem;
   }
+
+  .blog-post-body h2 { font-size: 1.3rem; margin: 28px 0 12px; }
+  .blog-post-body h3 { font-size: 1.1rem; margin: 24px 0 10px; }
+  .blog-post-body p { margin-bottom: 14px; }
+  .blog-post-body img { margin: 16px 0; }
+  .blog-post-body table { display: block; overflow-x: auto; }
 
   .blog-post-image img {
     max-height: none;
