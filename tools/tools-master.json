@@ -1,0 +1,126 @@
+{
+  "categories": [
+    { "id": "image-tools", "name": "Image Utilities", "desc": "Convert, compress, crop, and edit images instantly in your browser with professional-grade tools.", "icon_class": "fas fa-image" },
+    { "id": "pdf-tools", "name": "PDF Document Converters", "desc": "Merge, split, compress, and convert PDF documents safely without uploading to any server.", "icon_class": "fas fa-file-pdf" },
+    { "id": "seo-tools", "name": "SEO Optimization Software", "desc": "Analyze meta tags, track keyword density, generate sitemaps, and boost search visibility.", "icon_class": "fas fa-search" },
+    { "id": "content-tools", "name": "Content Automation Helpers", "desc": "Generate text, count words, check grammar, and clean up copy strings effortlessly.", "icon_class": "fas fa-pen-nib" },
+    { "id": "dev-tools", "name": "Web Developer Toolbox", "desc": "Minify code, format JSON, validate HTML, and beautify markup syntax in real time.", "icon_class": "fas fa-code" },
+    { "id": "social-tools", "name": "Social Media Meta Utilities", "desc": "Generate hashtags, format handles, create OG meta tags, and clip asset lengths.", "icon_class": "fas fa-share-alt" },
+    { "id": "secure-tools", "name": "Privacy & Cryptography Creators", "desc": "Generate secure hashes, encrypt strings, create strong passwords, and validate data.", "icon_class": "fas fa-shield-alt" },
+    { "id": "data-tools", "name": "Data Format Cleaners", "desc": "Convert CSV to JSON, parse XML arrays, extract data, and transform between formats.", "icon_class": "fas fa-database" },
+    { "id": "lead-tools", "name": "Lead Gen & Scraping Scripts", "desc": "Extract emails from text blocks, clean bulk lead lists, and validate contact data.", "icon_class": "fas fa-bullseye" },
+    { "id": "video-tools", "name": "Video Snippet Adjusters", "desc": "Calculate video aspect ratios, convert format containers, and trim clip durations.", "icon_class": "fas fa-video" }
+  ],
+  "tools": {
+    "image-tools": [
+      { "title": "WebP to JPG", "desc": "Convert next-gen WebP images to universally supported high-quality JPG format.", "icon_class": "fas fa-sync-alt", "link": "/tools/image-tools/webp-to-jpg/" },
+      { "title": "Image Compressor", "desc": "Reduce JPEG, PNG, and WebP file sizes by up to 80% without losing visual quality.", "icon_class": "fas fa-compress-arrows-alt", "link": "/tools/image-compressor/" },
+      { "title": "Color Picker", "desc": "Upload any image and extract exact HEX and RGB brand color codes instantly.", "icon_class": "fas fa-palette", "link": "/tools/color-picker/" },
+      { "title": "Favicon Generator", "desc": "Convert square images into production-ready .ico favicon files for your site.", "icon_class": "fas fa-globe", "link": "/tools/favicon-generator/" },
+      { "title": "SVG Optimizer", "desc": "Minify raw SVG vector code by stripping metadata, comments, and whitespace.", "icon_class": "fas fa-bolt", "link": "/tools/svg-optimizer/" },
+      { "title": "Blog Image Processor", "desc": "Upload an image, enter your blog title, and auto-convert to WebP with the correct filename.", "icon_class": "fas fa-camera", "link": "/tools/blog-image-processor/" },
+      { "title": "JPG to PNG", "desc": "Convert JPEG images to transparent-background PNG format for design assets.", "icon_class": "fas fa-file-image", "link": "#" },
+      { "title": "Image Resizer", "desc": "Resize images to custom width and height dimensions for any platform.", "icon_class": "fas fa-expand-arrows-alt", "link": "#" },
+      { "title": "Crop Tool", "desc": "Crop images to precise custom aspect ratios and dimensions.", "icon_class": "fas fa-crop-alt", "link": "#" },
+      { "title": "Image Rotator", "desc": "Rotate, flip, or mirror images with degree-precise canvas alignment.", "icon_class": "fas fa-redo", "link": "#" },
+      { "title": "Grayscale Effector", "desc": "Apply black and white monochrome filters to your color images.", "icon_class": "fas fa-adjust", "link": "#" },
+      { "title": "PNG to WebP", "desc": "Convert PNG images to ultra-lightweight WebP format for faster pages.", "icon_class": "fas fa-rocket", "link": "#" },
+      { "title": "Blur Utility", "desc": "Obfuscate sensitive areas of images with adjustable blur overlays.", "icon_class": "fas fa-eye-slash", "link": "#" },
+      { "title": "Exif Stripper", "desc": "Remove digital camera metadata and GPS coordinates from your photos.", "icon_class": "fas fa-user-secret", "link": "#" },
+      { "title": "Watermark Add", "desc": "Stamp custom text or image watermarks onto your pictures.", "icon_class": "fas fa-signature", "link": "#" },
+      { "title": "Base64 Image", "desc": "Encode images into inline base64 data URIs for direct HTML embedding.", "icon_class": "fas fa-terminal", "link": "#" },
+      { "title": "Invert Colors", "desc": "Reverse all color channels to create photographic negative effects.", "icon_class": "fas fa-exchange-alt", "link": "#" },
+      { "title": "GIF Frame Split", "desc": "Extract individual frames from animated GIF files as separate images.", "icon_class": "fas fa-film", "link": "#" },
+      { "title": "Aspect Calc", "desc": "Calculate aspect ratios and find matching dimensions for any format.", "icon_class": "fas fa-calculator", "link": "#" },
+      { "title": "Contrast Boost", "desc": "Enhance image contrast and revitalize shadows in underexposed photos.", "icon_class": "fas fa-sun", "link": "#" },
+      { "title": "Mirror Image", "desc": "Create horizontal or vertical mirror reflections of any image.", "icon_class": "fas fa-columns", "link": "#" },
+      { "title": "Round Corners", "desc": "Apply rounded corner effects to images for button and avatar styling.", "icon_class": "fas fa-circle-notch", "link": "#" },
+      { "title": "TIFF to JPG", "desc": "Convert print-grade TIFF files into web-friendly JPG format.", "icon_class": "fas fa-file-export", "link": "#" },
+      { "title": "BMP Converter", "desc": "Convert raw BMP bitmap files into modern JPG or PNG web formats.", "icon_class": "fas fa-vector-square", "link": "#" },
+      { "title": "Image Text Read", "desc": "OCR reader that extracts text characters from images using canvas analysis.", "icon_class": "fas fa-eye", "link": "#" }
+    ],
+    "seo-tools": [
+      { "title": "Meta Tag Generator", "desc": "Generate SEO-optimized HTML meta tags for title, description, and keywords.", "icon_class": "fas fa-tags", "link": "/tools/meta-tag-generator/" },
+      { "title": "UTM URL Builder", "desc": "Build campaign tracking URLs with source, medium, and campaign parameters.", "icon_class": "fas fa-link", "link": "/tools/utm-url-builder/" },
+      { "title": "Keyword Density Checker", "desc": "Analyze keyword frequency and density percentages in any text content.", "icon_class": "fas fa-percent", "link": "#" },
+      { "title": "Sitemap Generator", "desc": "Generate XML sitemaps for your website to improve search engine crawling.", "icon_class": "fas fa-sitemap", "link": "#" },
+      { "title": "Robots.txt Generator", "desc": "Create robots.txt files to control search engine crawler access.", "icon_class": "fas fa-robot", "link": "#" },
+      { "title": "Open Graph Generator", "desc": "Generate OG meta tags for social media sharing previews.", "icon_class": "fas fa-facebook", "link": "#" },
+      { "title": "Canonical URL Tool", "desc": "Generate canonical URL tags to prevent duplicate content issues.", "icon_class": "fas fa-check-double", "link": "#" },
+      { "title": "Page Speed Checklist", "desc": "Generate a checklist of common page speed optimization items.", "icon_class": "fas fa-tachometer-alt", "link": "#" }
+    ],
+    "content-tools": [
+      { "title": "Character & Word Counter", "desc": "Count characters, words, sentences, and paragraphs in any text in real time.", "icon_class": "fas fa-calculator", "link": "/tools/character-counter/" },
+      { "title": "URL Slug Generator", "desc": "Convert page titles into SEO-friendly URL slugs automatically.", "icon_class": "fas fa-link", "link": "/tools/url-slug-generator/" },
+      { "title": "Lorem Ipsum Generator", "desc": "Generate placeholder text in paragraphs, sentences, or words for mockups.", "icon_class": "fas fa-paragraph", "link": "/tools/lorem-ipsum-generator/" },
+      { "title": "Case Converter", "desc": "Convert text between UPPER, lower, Title, camelCase, and more.", "icon_class": "fas fa-font", "link": "/tools/case-converter/" },
+      { "title": "Text Diff Checker", "desc": "Compare two text blocks side-by-side with highlighted differences.", "icon_class": "fas fa-not-equal", "link": "/tools/text-diff-checker/" },
+      { "title": "Grammar Checker", "desc": "Check text for common grammar and punctuation issues.", "icon_class": "fas fa-check-circle", "link": "#" },
+      { "title": "Text Repeater", "desc": "Repeat any text or word a specified number of times.", "icon_class": "fas fa-redo-alt", "link": "#" },
+      { "title": "Word Cloud Generator", "desc": "Generate a word cloud from any text or article content.", "icon_class": "fas fa-cloud", "link": "#" }
+    ],
+    "dev-tools": [
+      { "title": "JSON Formatter & Validator", "desc": "Format, minify, and validate JSON data with syntax highlighting.", "icon_class": "fas fa-file-code", "link": "/tools/json-formatter/" },
+      { "title": "Base64 Encoder / Decoder", "desc": "Encode text or files to base64 and decode base64 back to readable text.", "icon_class": "fas fa-shield", "link": "/tools/base64-converter/" },
+      { "title": "Color Converter", "desc": "Convert between HEX, RGB, HSL, and named color formats instantly.", "icon_class": "fas fa-palette", "link": "/tools/color-converter/" },
+      { "title": "HTML Minifier", "desc": "Strip whitespace and comments from HTML code to reduce page weight.", "icon_class": "fas fa-compress", "link": "#" },
+      { "title": "CSS Minifier", "desc": "Minify CSS stylesheets by removing whitespace and redundant rules.", "icon_class": "fas fa-css3-alt", "link": "#" },
+      { "title": "JavaScript Minifier", "desc": "Minify JavaScript files to reduce load times and bandwidth usage.", "icon_class": "fab fa-js", "link": "#" },
+      { "title": "HTML Entities Encoder", "desc": "Encode or decode HTML entities for safe web display.", "icon_class": "fas fa-code", "link": "#" },
+      { "title": "Regex Tester", "desc": "Test regular expressions against sample text with match highlighting.", "icon_class": "fas fa-filter", "link": "#" },
+      { "title": "SQL Formatter", "desc": "Format and beautify SQL queries for better readability.", "icon_class": "fas fa-database", "link": "#" },
+      { "title": "User Agent Parser", "desc": "Parse and identify browser, OS, and device from user-agent strings.", "icon_class": "fas fa-user", "link": "#" }
+    ],
+    "social-tools": [
+      { "title": "Hashtag Generator", "desc": "Generate relevant hashtags from any keyword or phrase for social posts.", "icon_class": "fas fa-hashtag", "link": "#" },
+      { "title": "OG Meta Preview", "desc": "Preview how your webpage will look when shared on social platforms.", "icon_class": "fas fa-eye", "link": "#" },
+      { "title": "Twitter Card Generator", "desc": "Generate Twitter Card meta tags for rich tweet previews.", "icon_class": "fab fa-twitter", "link": "#" },
+      { "title": "Social Post Length Checker", "desc": "Check character limits for Twitter, LinkedIn, Instagram, and Facebook.", "icon_class": "fas fa-ruler", "link": "#" },
+      { "title": "Bio Link Shortener", "desc": "Create short bio links for Instagram and TikTok profiles.", "icon_class": "fas fa-compress", "link": "#" },
+      { "title": "Caption Generator", "desc": "Generate engaging social media captions from keywords.", "icon_class": "fas fa-quote-right", "link": "#" }
+    ],
+    "pdf-tools": [
+      { "title": "PDF to JPG", "desc": "Convert PDF pages into high-quality JPG images.", "icon_class": "fas fa-file-export", "link": "#" },
+      { "title": "JPG to PDF", "desc": "Combine multiple JPG images into a single PDF document.", "icon_class": "fas fa-file-import", "link": "#" },
+      { "title": "PDF Compressor", "desc": "Reduce PDF file size while maintaining document quality.", "icon_class": "fas fa-compress", "link": "#" },
+      { "title": "PDF Merger", "desc": "Merge multiple PDF files into one combined document.", "icon_class": "fas fa-object-group", "link": "#" },
+      { "title": "PDF Splitter", "desc": "Split a PDF into individual pages or sections.", "icon_class": "fas fa-scissors", "link": "#" },
+      { "title": "PDF Text Extractor", "desc": "Extract text content from PDF documents.", "icon_class": "fas fa-file-alt", "link": "#" },
+      { "title": "PDF Metadata Editor", "desc": "View and edit PDF document metadata.", "icon_class": "fas fa-info-circle", "link": "#" }
+    ],
+    "secure-tools": [
+      { "title": "Password Generator", "desc": "Generate strong, secure passwords with custom character sets and length.", "icon_class": "fas fa-key", "link": "/tools/password-generator/" },
+      { "title": "Hash Generator", "desc": "Generate MD5, SHA-1, SHA-256, and SHA-512 hashes from text.", "icon_class": "fas fa-fingerprint", "link": "#" },
+      { "title": "Encryption Tool", "desc": "Encrypt and decrypt text using AES or simple cipher methods.", "icon_class": "fas fa-lock", "link": "#" },
+      { "title": "Password Strength Checker", "desc": "Check the strength and security level of any password.", "icon_class": "fas fa-shield-virus", "link": "#" },
+      { "title": "Two-Factor Auth Code", "desc": "Generate TOTP-based two-factor authentication codes.", "icon_class": "fas fa-mobile-alt", "link": "#" },
+      { "title": "Random Token Generator", "desc": "Generate cryptographically secure random tokens and strings.", "icon_class": "fas fa-dice", "link": "#" },
+      { "title": "SSL Checker", "desc": "Check SSL certificate validity and expiry for any domain.", "icon_class": "fas fa-certificate", "link": "#" }
+    ],
+    "data-tools": [
+      { "title": "CSV to JSON", "desc": "Convert CSV spreadsheets into structured JSON data arrays.", "icon_class": "fas fa-exchange-alt", "link": "#" },
+      { "title": "JSON to CSV", "desc": "Convert JSON data back into CSV table format.", "icon_class": "fas fa-file-csv", "link": "#" },
+      { "title": "XML to JSON", "desc": "Parse XML documents and convert them to JSON format.", "icon_class": "fas fa-code", "link": "#" },
+      { "title": "Data Extractor", "desc": "Extract specific fields and values from raw data strings.", "icon_class": "fas fa-filter", "link": "#" },
+      { "title": "YAML Converter", "desc": "Convert between YAML, JSON, and other data formats.", "icon_class": "fas fa-file", "link": "#" },
+      { "title": "URL Decoder", "desc": "Decode URL-encoded strings back to readable text.", "icon_class": "fas fa-eye", "link": "#" },
+      { "title": "TSV Converter", "desc": "Convert tab-separated values to delimited formats.", "icon_class": "fas fa-table", "link": "#" }
+    ],
+    "lead-tools": [
+      { "title": "Email Extractor", "desc": "Extract email addresses from text blocks and web content.", "icon_class": "fas fa-envelope", "link": "#" },
+      { "title": "Phone Extractor", "desc": "Extract phone numbers from text strings and documents.", "icon_class": "fas fa-phone", "link": "#" },
+      { "title": "Email Validator", "desc": "Validate email address format and domain syntax.", "icon_class": "fas fa-check-circle", "link": "#" },
+      { "title": "Lead List Cleaner", "desc": "Remove duplicates and format lead contact lists.", "icon_class": "fas fa-broom", "link": "#" },
+      { "title": "Web Scraper Builder", "desc": "Build simple web scraping rules and patterns.", "icon_class": "fas fa-spider", "link": "#" },
+      { "title": "Contact Form Builder", "desc": "Generate HTML contact form code with validation.", "icon_class": "fas fa-wpforms", "link": "#" }
+    ],
+    "video-tools": [
+      { "title": "Aspect Ratio Calculator", "desc": "Calculate video aspect ratios and matching dimensions.", "icon_class": "fas fa-calculator", "link": "#" },
+      { "title": "Video Duration Calculator", "desc": "Add, subtract, and convert video duration timestamps.", "icon_class": "fas fa-clock", "link": "#" },
+      { "title": "Frame Rate Converter", "desc": "Convert between common video frame rates and formats.", "icon_class": "fas fa-film", "link": "#" },
+      { "title": "Resolution Upscaler", "desc": "Calculate upscaled video resolutions while maintaining aspect ratio.", "icon_class": "fas fa-expand", "link": "#" },
+      { "title": "Video Size Estimator", "desc": "Estimate video file size based on resolution, duration, and bitrate.", "icon_class": "fas fa-weight", "link": "#" },
+      { "title": "YouTube Thumbnail Grabber", "desc": "Generate YouTube video thumbnail URLs from video IDs.", "icon_class": "fab fa-youtube", "link": "#" }
+    ]
+  }
+}

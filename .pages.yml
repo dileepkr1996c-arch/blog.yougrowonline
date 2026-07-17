@@ -1,0 +1,156 @@
+{
+  "media": {
+    "input": "assets/images",
+    "output": "/assets/images"
+  },
+  "content": [
+    {
+      "name": "Blogs",
+      "label": "Blogs",
+      "type": "collection",
+      "path": "_posts",
+      "fields": [
+        {
+          "name": "title",
+          "label": "Title (H1 Heading)",
+          "type": "string"
+        },
+        {
+          "name": "permalink",
+          "label": "Custom URL Slug",
+          "type": "string"
+        },
+        {
+          "name": "date",
+          "label": "Publish Date",
+          "type": "date"
+        },
+        {
+          "name": "layout",
+          "label": "Layout",
+          "type": "hidden",
+          "default": "post"
+        },
+        {
+          "name": "author",
+          "label": "Author Name",
+          "type": "string",
+          "default": "You Grow Online"
+        },
+        {
+          "name": "author_twitter",
+          "label": "Author Twitter/Social URL (For EEAT)",
+          "type": "string"
+        },
+        {
+          "name": "image",
+          "label": "Featured Image (WebP Recommended)",
+          "type": "image"
+        },
+        {
+          "name": "image_alt",
+          "label": "Image ALT Text",
+          "type": "string"
+        },
+        {
+          "name": "excerpt",
+          "label": "Short Excerpt (Snippet)",
+          "type": "text"
+        },
+        {
+          "name": "description",
+          "label": "Meta Description (Max 160 chars)",
+          "type": "text"
+        },
+        {
+          "name": "meta_title",
+          "label": "SEO Meta Title (Max 60 chars)",
+          "type": "string"
+        },
+        {
+          "name": "focus_keyword",
+          "label": "Focus Keyword",
+          "type": "string"
+        },
+        {
+          "name": "secondary_keywords",
+          "label": "Secondary Keywords (Comma Separated)",
+          "type": "string"
+        },
+        {
+          "name": "canonical_url",
+          "label": "Canonical URL (Leave blank if self)",
+          "type": "string"
+        },
+        {
+          "name": "robots",
+          "label": "Robots Meta Tag",
+          "type": "select",
+          "options": {
+            "values": [
+              "index, follow",
+              "noindex, follow",
+              "index, nofollow"
+            ]
+          },
+          "default": "index, follow"
+        },
+        {
+          "name": "schema_type",
+          "label": "Schema Type",
+          "type": "select",
+          "options": {
+            "values": [
+              "BlogPosting",
+              "Article",
+              "TechArticle",
+              "NewsArticle"
+            ]
+          },
+          "default": "BlogPosting"
+        },
+        {
+          "name": "target_country",
+          "label": "Target Country",
+          "type": "string"
+        },
+        {
+          "name": "target_language",
+          "label": "Target Language",
+          "type": "string",
+          "default": "English"
+        },
+        {
+          "name": "toc",
+          "label": "Show Table of Contents?",
+          "type": "boolean",
+          "default": true
+        },
+        {
+          "name": "categories",
+          "label": "Categories",
+          "type": "string"
+        },
+        {
+          "name": "tags",
+          "label": "Tags",
+          "type": "string"
+        },
+        {
+          "name": "faq",
+          "label": "FAQ Section (Google Rich Snippets ke liye)",
+          "type": "object",
+          "fields": [
+            { "name": "question", "label": "Question", "type": "string" },
+            { "name": "answer", "label": "Answer", "type": "text" }
+          ]
+        },
+        {
+          "name": "body",
+          "label": "Article Content",
+          "type": "rich-text"
+        }
+      ]
+    }
+  ]
+}
