@@ -4,9 +4,8 @@ layout: default
 
 <article class="section blog-single-page">
   <div class="container">
-    <div id='div-gpt-ad-1784274076502-0' style='min-width:300px;min-height:50px;max-width:100%;margin:0 auto 20px;text-align:center;overflow:hidden;'>
-      <script>googletag.cmd.push(function(){googletag.display('div-gpt-ad-1784274076502-0');});</script>
-    </div>
+</div>
+    
     <div class="blog-single-layout">
       <div class="blog-single-main">
         <a href="/" class="blog-post-back"><i class="fa-solid fa-arrow-left"></i> Back to Blog</a>
@@ -24,37 +23,11 @@ layout: default
         <div class="blog-post-body">
           {{ content }}
         </div>
-        <script>
-          (function() {
-            var positions = [2, 5, 8];
-            var slots = ['div-gpt-ad-in-article-1', 'div-gpt-ad-in-article-2', 'div-gpt-ad-in-article-3'];
-            var body = document.querySelector('.blog-post-body');
-            if (!body) return;
-            var paragraphs = body.querySelectorAll('p');
-            positions.forEach(function(pos, i) {
-              var target = paragraphs[pos];
-              if (!target) return;
-              var adWrap = document.createElement('div');
-              adWrap.style.cssText = 'margin:24px 0;text-align:center;overflow:hidden;';
-              var adDiv = document.createElement('div');
-              adDiv.id = slots[i];
-              adDiv.style.cssText = 'min-width:300px;min-height:50px;max-width:100%;margin:0 auto;text-align:center;overflow:hidden;';
-              adWrap.appendChild(adDiv);
-              target.parentNode.insertBefore(adWrap, target.nextSibling);
-              googletag.cmd.push(function(){ googletag.display(slots[i]); });
-            });
-          })();
-        </script>
       </div>
       <aside class="sidebar sidebar-blog">
         <div class="sidebar-section">
           <h4>Popular Tools</h4>
           <ul id="sidebarTools"><li>Loading...</li></ul>
-        </div>
-        <div class="sidebar-ad" style="margin:24px 0;text-align:center;">
-          <div id='div-gpt-ad-1784274755895-0' style='min-width:120px;min-height:600px;margin:0 auto;'>
-            <script>googletag.cmd.push(function(){googletag.display('div-gpt-ad-1784274755895-0');});</script>
-          </div>
         </div>
         <div class="sidebar-section">
           <h4>Latest Posts</h4>
@@ -65,9 +38,6 @@ layout: default
           </ul>
         </div>
       </aside>
-    </div>
-    <div id='div-gpt-ad-1784274438193-0' style='min-width:300px;min-height:50px;max-width:100%;margin:36px auto 0;text-align:center;overflow:hidden;'>
-      <script>googletag.cmd.push(function(){googletag.display('div-gpt-ad-1784274438193-0');});</script>
     </div>
   </div>
 </article>
