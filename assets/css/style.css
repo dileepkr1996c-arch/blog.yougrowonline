@@ -2080,6 +2080,30 @@ ul { list-style: none; }
   color: var(--accent-primary);
 }
 
+/* ----- Ad Containers (Responsive) ----- */
+.ad-wrap {
+  max-width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+.ad-wrap > div {
+  display: inline-block;
+}
+.ad-desktop-only {
+  display: block;
+}
+.ad-sidebar-skyscraper {
+  display: block;
+}
+@media (max-width: 768px) {
+  .ad-desktop-only {
+    display: none;
+  }
+  .ad-sidebar-skyscraper {
+    display: none;
+  }
+}
+
 /* ----- Page Header (inner pages) ----- */
 .page-header {
   padding: calc(var(--header-height) + var(--subnav-height)) 0 20px;
