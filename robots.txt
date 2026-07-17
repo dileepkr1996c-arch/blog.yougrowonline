@@ -1,7 +1,0 @@
----
-layout: null
----
-User-agent: *
-Allow: /
-
-Sitemap: https://blog.yougrowonline.in/sitemap.xml
