@@ -2324,7 +2324,7 @@ ul { list-style: none; }
 
 /* ----- Blog Listing Page ----- */
 .blog-page-header {
-  padding-top: 140px;
+  padding-top: 0;
 }
 
 /* ----- 404 Page ----- */
@@ -2973,6 +2973,9 @@ img {
   }
 
   /* Page header */
+  .page-header {
+    padding: calc(100px + var(--subnav-height)) 0 36px;
+  }
   .page-header h1 {
     font-size: 1.6rem;
   }
@@ -2991,7 +2994,7 @@ img {
 
   /* Blog Single + Sidebar */
   .blog-single-page {
-    padding-top: calc(120px + var(--header-height) + var(--subnav-height));
+    padding-top: calc(24px + var(--header-height) + var(--subnav-height));
   }
 
   .blog-single-layout {
