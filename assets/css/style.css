@@ -2976,6 +2976,10 @@ img {
   .page-header {
     padding: calc(100px + var(--subnav-height)) 0 36px;
   }
+  [id^="div-gpt-ad"] {
+    max-width: 100% !important;
+    overflow: hidden !important;
+  }
   .page-header h1 {
     font-size: 1.6rem;
   }
@@ -3004,6 +3008,9 @@ img {
   .sidebar {
     width: 100%;
     position: static;
+  }
+  .sidebar .sidebar-ad {
+    display: none;
   }
 
   .blog-single-main h1 {
