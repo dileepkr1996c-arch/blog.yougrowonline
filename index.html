@@ -3,12 +3,14 @@ layout: default
 title: "You Grow Online — Blog | Insights & News"
 description: "Read the latest insights on web development, ecommerce, digital marketing, SEO, Google Ads, Facebook Ads, and AI technology from You Grow Online."
 ---
+<div style="padding:24px 16px 8px;text-align:center;">
+  <div id='div-gpt-ad-1784274076502-0' style='min-width:300px;min-height:50px;max-width:100%;margin:0 auto;text-align:center;overflow:hidden;'>
+    <script>googletag.cmd.push(function(){googletag.display('div-gpt-ad-1784274076502-0');});</script>
+  </div>
+</div>
 <section class="page-header blog-page-header" id="page-header">
   <div class="container">
-    <div id='div-gpt-ad-1784274076502-0' style='min-width:300px;min-height:50px;max-width:100%;margin:0 auto;text-align:center;overflow:hidden;'>
-      <script>googletag.cmd.push(function(){googletag.display('div-gpt-ad-1784274076502-0');});</script>
-    </div>
-    <h1 style="margin-top:12px !important; padding-top:0 !important; margin-bottom:5px !important;">Our Blog</h1>
+    <h1 style="margin-top:0 !important; padding-top:0 !important; margin-bottom:5px !important;">Our Blog</h1>
     <p style="margin-top:0 !important; margin-bottom:0 !important;">Insights, guides, and news on web development, digital marketing, and AI technology.</p>
   </div>
 </section>
@@ -29,6 +31,13 @@ description: "Read the latest insights on web development, ecommerce, digital ma
           </div>
         </div>
       </article>
+      {% if forloop.index == 3 %}
+      <div style="grid-column:1/-1;padding:12px 0;text-align:center;">
+        <div id='div-gpt-ad-1784274438193-0' style='min-width:300px;min-height:50px;max-width:100%;margin:0 auto;text-align:center;overflow:hidden;'>
+          <script>googletag.cmd.push(function(){googletag.display('div-gpt-ad-1784274438193-0');});</script>
+        </div>
+      </div>
+      {% endif %}
       {% endfor %}
     </div>
     <div class="pagination-bar" id="blogPaginationBar"></div>
