@@ -3044,6 +3044,10 @@ img {
     font-size: 1.5rem;
   }
 
+  .ad-wrap > div {
+    min-width: unset !important;
+    max-width: 100% !important;
+  }
   .blog-post-body h1 { font-size: 1.3rem; margin: 28px 0 12px; }
   .blog-post-body h2 { font-size: 1.3rem; margin: 28px 0 12px; }
   .blog-post-body h3 { font-size: 1.1rem; margin: 24px 0 10px; }
